@@ -1,11 +1,11 @@
 # JavaScript Interviews Question
 
-# 1. What do you understand by JavaScript ?
+## 1. What do you understand by JavaScript ?
 
 => JavaScript is a popular web scripting language is used for clint-side and server-side development.
 =>The JavaScript code can be inserted into HTML pages that can be understood and executed by web browsers while also supporting object-oriented programming abilities .
 
-# 2. What is difference between JavaScript and Java ?
+## 2. What is difference between JavaScript and Java ?
 
 =>1.JavaScript is an object-oriented scripting language.
 2.JavaScript application are meant to run inside a web browser. 3. JavaScript does not need compilation before running the application code .
