@@ -203,3 +203,5 @@ In JavaScript, functions are objects and therefore, functions can take other fun
 ![callback](https://user-images.githubusercontent.com/97391719/193576642-f3084325-a927-4721-9b52-4754be698cb3.jpg)
 
 A callback is a JavaScript function that is passed to another function as an argument or a parameter. This function is to be executed whenever the function that it is passed to gets executed.
+
+
