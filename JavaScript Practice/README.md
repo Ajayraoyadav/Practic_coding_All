@@ -69,3 +69,21 @@ var display=function() {
 }  
 display();
 
+### 9. In JavaScript what is an argument object?
+
+    The variables of JavaScript represent the arguments that are passed to a function.
+
+### 10. Define closure.
+
+    In JavaScript, we need closures when a variable which is defined outside the scope in reference is accessed from some inner scope.
+
+     var num = 10;
+     function sum() {
+     document.writeln(num+num);
+     }
+     sum();
+
+### 11. What is BOM?
+
+    BOM stands for Browser Object Model. It provides interaction with the browser. The default object of a browser is a window. So, you can call all the functions of the window by specifying the window or directly. The window object provides various properties like document, history, screen, navigator, location, innerHeight, innerWidth,
+
