@@ -86,3 +86,4 @@ In JavaScript, we need closures when a variable which is defined outside the sco
 ### 11. What is BOM?
 
 BOM stands for Browser Object Model. It provides interaction with the browser. The default object of a browser is a window. So, you can call all the functions of the window by specifying the window or directly. The window object provides various properties like document, history, screen, navigator, location, innerHeight, innerWidth,
+
