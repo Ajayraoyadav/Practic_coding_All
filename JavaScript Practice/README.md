@@ -204,4 +204,57 @@ In JavaScript, functions are objects and therefore, functions can take other fun
 
 A callback is a JavaScript function that is passed to another function as an argument or a parameter. This function is to be executed whenever the function that it is passed to gets executed.
 
+### 23. What do you understand about cookies?
 
+A cookie is generally a small data that is sent from a website and stored on the user’s machine by a web browser that was used to access the website. Cookies are used to remember information for later use and also to record the browsing activity on a website.
+
+### 24. What are Imports and Exports in JavaScript?
+
+Imports and exports help in writing modular code for our JavaScript applications. With the help of imports and exports, we can split a JavaScript code into multiple files in a project. This greatly simplifies the application source code and encourages code readability.
+
+     calc.js
+
+     export const sqrt = Math.sqrt;
+
+     export function square(x) {
+
+     return x \* x;
+
+     }
+
+     export function diag(x, y) {
+
+     return sqrt(square(x) + square(y));
+
+     }
+
+This file exports two functions that calculate the squares and diagonal of the input respectively.
+
+    main.js
+
+    import { square, diag } from "calc";
+
+    console.log(square(4)); // 16
+
+    console.log(diag(4, 3)); // 5
+
+Therefore, here we import those functions and pass input to those functions to calculate square and diagonal.
+
+### 25. Difference between var, let and const keywords in JavaScript
+
+###### var is Function Scoped
+
+Variables that are declared with var keyword have function scope. Function scoped here means that they can be accessed only inside the function in which they are declared, as showcased in the following JavaScript code example:
+
+###### let is Block Scoped
+
+The let keyword should be used in situations where you want to declare a variable that should be restricted to the block in which it is restricted. Also, variables declared with the let keyword cannot be updated or re-declared. Here is an example of how to use let to declare variables in JavaScript:
+
+###### const Declarations are Block Scoped
+
+The scoping principles of const are the same as that of the let keyword. Like let, the variables declared with the const keyword will also have scope restricted to the block in which they are declared.
+
+Some important pointers for const include:
+
+const declares a variable with a constant value.
+Use the const keyword if the variable that you are declaring should not be allowed to be reassigned in the future.
