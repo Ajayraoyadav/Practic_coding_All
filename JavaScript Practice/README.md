@@ -17,3 +17,30 @@
 
 => JavaScript was developed by Brendan Eich, who was a Netscape programmer. Brendan Eich developed this new scripting language in just ten days in the year September 1995. At the time of its launch, JavaScript was initially called Mocha. After that, it was called Live Script and later known as JavaScript.
 
+### 4. List some of the advantages of JavaScript.
+
+==> Some of the advantages of JavaScript are:
+
+- Server interaction is less
+- Feedback to the visitors is immediate
+- Interactivity is high
+- Interfaces are richer
+
+### 5. List some of the disadvantages of JavaScript.
+
+=> Some of the disadvantages of JavaScript are:
+
+- No support for multithreading
+- No support for multiprocessing
+- Reading and writing of files is not allowed
+- No support for networking applications.
+
+### 6. Define a named function in JavaScript.
+
+=> The function which has named at the time of definition is called a named function. For example
+<!-- 
+function msg(){  
+ document.writeln("Named Function");  
+}  
+msg(); -->
+
