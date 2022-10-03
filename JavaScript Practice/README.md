@@ -38,9 +38,9 @@
 ### 6. Define a named function in JavaScript.
 
 => The function which has named at the time of definition is called a named function. For example
-<!-- 
+
 function msg(){  
  document.writeln("Named Function");  
 }  
-msg(); -->
+msg();
 
