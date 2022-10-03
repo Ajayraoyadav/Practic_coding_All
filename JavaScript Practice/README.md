@@ -12,3 +12,8 @@
 =>1.Java is an object-oriented programming language.
 2.Java applications are generally made for use in Operating Systems and Virtual Machines.
 3.Java source code needs a compiler before it can be ready to run in realtime.
+
+### 3. Who developed JavaScript, and what was the first name of JavaScript?
+
+=> JavaScript was developed by Brendan Eich, who was a Netscape programmer. Brendan Eich developed this new scripting language in just ten days in the year September 1995. At the time of its launch, JavaScript was initially called Mocha. After that, it was called Live Script and later known as JavaScript.
+
