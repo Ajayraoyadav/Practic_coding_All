@@ -44,3 +44,28 @@ function msg(){
 }  
 msg();
 
+### 7. Name the types of functions.
+
+=>The types of function are:
+
+1. Named - These type of functions contains name at the time of definition. For Example:
+   function display() {  
+    console.log("Named Function");  
+   }  
+   display();
+
+2. Anonymous - These type of functions doesn't contain any name. They are declared dynamically at runtime.
+   var display=function() {  
+    document.writeln("Anonymous Function");  
+   }  
+   display();
+
+### 8. Define anonymous function
+
+=> It is a function that has no name. These functions are declared dynamically at runtime using the function operator instead of the function declaration. The function operator is more flexible than a function declaration. It can be easily used in the place of an expression. For example:
+
+var display=function() {  
+ alert("Anonymous Function is invoked");  
+}  
+display();
+
