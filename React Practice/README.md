@@ -37,3 +37,32 @@ Handling events with React elements is very similar to handling events on DOM el
 ### Explain the useState API? explore (https://reactjs.org/)
 
 ### Explain the how map, filter, reduce work (https://reactjs.org/)
+
+### Embedding map() in JSX
+In the examples above we declared a separate listItems variable and included it in JSX:
+
+     function NumberList(props) {
+       const numbers = props.numbers;
+       const listItems = numbers.map((number) =>
+         <ListItem key={number.toString()}
+                   value={number} />
+       );
+       return (
+         <ul>
+           {listItems}
+         </ul>
+       );
+     }
+JSX allows embedding any expression in curly braces so we could inline the map() result:
+
+    function NumberList(props) {
+      const numbers = props.numbers;
+      return (
+        <ul>
+          {numbers.map((number) =>
+            <ListItem key={number.toString()}
+                      value={number} />
+          )}
+        </ul>
+      );
+    }
