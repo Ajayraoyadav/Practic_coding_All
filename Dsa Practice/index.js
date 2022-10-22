@@ -1,7 +1,7 @@
 //  1. Find How many Prime Number exist between
 
-var PrimeNu = 10;
-for (var num = 1; num <= PrimeNu; num++) {
+var PrimeNumber = 10;
+for (var num = 1; num <= PrimeNumber; num++) {
   var count_factors = 0;
 
   for (var i = 1; i <= num; i++) {
