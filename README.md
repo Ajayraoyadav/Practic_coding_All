@@ -7,7 +7,7 @@ After hitting the URL, the browser cache is checked. As browser maintains its DN
 ### 2. What is a URLs full form? Explain what a url is and the four parts 
 
 (Uniform Resource Locator)
-Protocol
+Protocols
 The protocol or scheme of a URL indicates the method that will be used for transmitting or exchanging data. The most familiar scheme is the Hypertext Transfer Protocol (HTTP) or Hypertext Transfer Protocol Secure (HTTPS) for the transmission of HTML files. FTP (for files) and Mailto (for mails) are examples of other types of schemes.
 In the example URL above, https:// is the URL's secure protocol.
 Domain
