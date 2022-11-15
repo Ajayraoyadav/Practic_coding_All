@@ -8,7 +8,7 @@ After hitting the URL, the browser cache is checked. As browser maintains its DN
 
 (Uniform Resource Locator)
 Protocols
-The protocol or scheme of a URL indicates the method that will be used for transmitting or exchanging data. The most familiar scheme is the Hypertext Transfer Protocol (HTTP) or Hypertext Transfer Protocol Secure (HTTPS) for the transmission of HTML files. FTP (for files) and Mailto (for mails) are examples of other types of schemes.
+The protocol or scheme of a URL indicates the method that will be used for transmitting or exchanging data. The most familiar scheme is the Hypertext Transfer Protocol (HTTP) or Hypertext Transfer Protocol Secure (HTTPS) for the transmission of HTML files. FTP (for files) and Mailto (for mails) are examples of other types of schemes..
 In the example URL above, https:// is the URL's secure protocol.
 Domain
 The domain or hostname of a URL is a user-friendly expression of the Internet Protocol (IP) address of a website. It points to the location of the website's host server.
