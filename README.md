@@ -30,7 +30,7 @@ HTTP is a Hypertext Transfer Protocol, whereas TCP full form is Transmission Con
 
 An HTTP header is a field of an HTTP request or response that passes additional context and metadata about the request or response. For example, a request message can use headers to indicate it's preferred media formats, while a response can use header to indicate the media format of the returned body.
 
-### 5. What are some HTTP response codes? what does it mean 
+### 5. What are some HTTP response codes? what does it mean .
 
 HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes: Informational responses , Successful responses , Redirection messages
 
